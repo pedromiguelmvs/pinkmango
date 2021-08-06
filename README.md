@@ -13,8 +13,6 @@
 
 > Especializados em fazer da sua vida mais doce.
 
-Antes de começar, quero esclarecer que, por motivos de organização, este projeto foi dividido em duas partes: __frontend__ e __backend__. O backend pode ser acessado [clicando aqui](https://github.com/pedromiguelmvs/pinkmangob).
-
 <br />
 <p align="center"><img src="https://i.imgur.com/XeeSWk9.png"/></p>
 
@@ -22,9 +20,15 @@ Antes de começar, quero esclarecer que, por motivos de organização, este proj
 
 # :pushpin: Indice
 
+* [Considerações Iniciais](#paintbrush-considerações-iniciais)
 * [Features](#rocket-features)
 * [Getting Started](#runner-rodando-o-projeto)
 
+# :paintbrush: Considerações iniciais
+
+Antes de começar, quero esclarecer que, por motivos de organização, este projeto foi dividido em duas partes: __frontend__ e __backend__. O backend pode ser acessado [clicando aqui](https://github.com/pedromiguelmvs/pinkmangob).
+
+A interface do projeto foi cuidadosamente prototipada antes de ser implementada de fato, o link do projeto no Figma pode ser acessado [clicando aqui](https://www.figma.com/file/qawIppwVhAR3UcAfpashac/pinkmango?node-id=0%3A1)
 
 # :rocket: Features
 
