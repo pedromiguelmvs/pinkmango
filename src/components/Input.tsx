@@ -9,8 +9,8 @@ interface InputProps {
   placeholder: string;
   className?: string;
   onChange?: ChangeEventHandler;
-  alert: string;
-  valid: boolean;
+  alert?: string;
+  valid?: boolean;
   maxLength: number;
 }
 

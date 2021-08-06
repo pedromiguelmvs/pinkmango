@@ -1,7 +1,7 @@
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import Dashboard from './pages/dashboard';
 
-import Home from './pages/home';
+import Index from './pages/index';
 import Panel from './pages/panel';
 import Register from './pages/register';
 
@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/">
-          <Home />
+          <Index />
         </Route>
         <Route path="/:name/registrar">
           <Register />
