@@ -1,0 +1,31 @@
+$pink-bold-font-color: #EF476F;
+$title-color: #FCBF49;
+
+@font-face {
+  font-family: Lemon Milk Light;
+  src: url(../../assets/fonts/LEMONMILK-Light.otf);
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  .title {
+    font-family: 'Lemon Milk Light';
+    font-size: 80px;
+    color: $title-color;
+    font-weight: 400;
+  }
+}
+
+.pink-bold-font {
+  color: $pink-bold-font-color;
+  font-weight: bold;
+}
+
+@media (max-width: 1040px) {
+  .logo-container {
+    display: none;
+  }
+}

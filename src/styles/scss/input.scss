@@ -1,0 +1,29 @@
+$outline-color: #EF476F;
+$border-color: #EDEDF1;
+$text-color: #535353;
+$invalid-field-text-color: #C1121F;
+
+.input {
+  font-family: 'Inter', 'Roboto', sans-serif;
+  font-size: 18px;
+  color: $text-color;
+  width: 90%;
+  max-width: 350px;
+  padding: 15px 20px;
+  outline: none;
+  border: 2px solid $border-color;
+  border-radius: 5px;
+}
+
+.input:focus {
+  border-color: $outline-color;
+}
+
+.invalid-field {
+  font-size: 10px;
+  font-family: 'Inter', 'Roboto', sans-serif;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 5px;
+  color: $invalid-field-text-color;
+}

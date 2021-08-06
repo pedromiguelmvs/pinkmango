@@ -1,0 +1,22 @@
+$button-background-color: #EF476F;
+$button-background-color-hover: #ff577e;
+$text-color: #fff;
+
+.button {
+  border: 0px;
+  padding: 15px 20px;
+  width: 90%;
+  max-width: 350px;
+  background-color: $button-background-color;
+  border: 3px solid $button-background-color;
+  color: $text-color;
+  font-family: 'Inter', 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $button-background-color-hover;
+  }
+}
