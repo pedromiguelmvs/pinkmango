@@ -13,7 +13,7 @@
 
 > Especializados em fazer da sua vida mais doce.
 
-Antes de começar, quero esclarecer que este projeto foi dividido em duas partes: __frontend__ e __backend__. O backend pode ser acessado [clicando aqui](https://github.com/pedromiguelmvs/pinkmangob).
+Antes de começar, quero esclarecer que, por motivos de organização, este projeto foi dividido em duas partes: __frontend__ e __backend__. O backend pode ser acessado [clicando aqui](https://github.com/pedromiguelmvs/pinkmangob).
 
 <br />
 <p align="center"><img src="https://i.imgur.com/XeeSWk9.png"/></p>
