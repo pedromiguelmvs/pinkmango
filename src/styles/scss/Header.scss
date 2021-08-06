@@ -1,0 +1,35 @@
+$header-background-color: #fff;
+$text-color: #535353;
+
+.header-container {
+  height: 60px;
+  background: $header-background-color;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .return-button-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transform: translateX(20px);
+    cursor: pointer;
+
+    font-family: 'Inter', 'Roboto', sans-serif;
+    color: $text-color;
+    font-weight: 500;
+  }
+
+}
+
+@media (max-width: 610px) {
+  .header-container {
+    height: auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}

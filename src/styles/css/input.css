@@ -1,0 +1,26 @@
+.input {
+  font-family: "Inter", "Roboto", sans-serif;
+  font-size: 18px;
+  color: #535353;
+  width: 90%;
+  max-width: 350px;
+  padding: 15px 20px;
+  outline: none;
+  border: 2px solid #EDEDF1;
+  border-radius: 5px;
+}
+
+.input:focus {
+  border-color: #EF476F;
+}
+
+.invalid-field {
+  font-size: 10px;
+  font-family: "Inter", "Roboto", sans-serif;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 5px;
+  color: #C1121F;
+}
+
+/*# sourceMappingURL=input.css.map */

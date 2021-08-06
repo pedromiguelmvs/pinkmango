@@ -1,0 +1,36 @@
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.label {
+  font-family: "Inter", "Roboto", sans-serif;
+  color: #BFBFBF;
+  font-weight: bold;
+}
+
+.checkbox {
+  width: 2em;
+  height: 2em;
+  color: #363839;
+  border: 2px solid #bdc1c6;
+  border-radius: 4px;
+  appearance: none;
+  outline: 0;
+  cursor: pointer;
+  transition: background 175ms cubic-bezier(0.1, 0.1, 0.25, 1);
+}
+.checkbox:checked {
+  color: #fff;
+  border-color: #EF476F;
+  background: #EF476F;
+}
+.checkbox:checked::before {
+  opacity: 1;
+}
+.checkbox:checked ~ label::before {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+/*# sourceMappingURL=Checkbox.css.map */

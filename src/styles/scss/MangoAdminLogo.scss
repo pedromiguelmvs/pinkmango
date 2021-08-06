@@ -1,0 +1,30 @@
+$pink-bold-font-color: #EF476F;
+$title-color: #FCBF49;
+
+@font-face {
+  font-family: Lemon Milk Light;
+  src: url(../../assets/fonts/LEMONMILK-Light.otf);
+}
+
+.mango-admin-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+
+  .mango-admin-logo-icon {
+    width: 50px;
+  }
+  
+  .mango-admin-title {
+    font-family: 'Lemon Milk Light';
+    font-size: 30px;
+    color: $title-color;
+    font-weight: 400;
+  }
+}
+
+.mango-admin-pink-bold-font {
+  color: $pink-bold-font-color;
+  font-weight: bold;
+}

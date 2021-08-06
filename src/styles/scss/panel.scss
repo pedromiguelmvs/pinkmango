@@ -1,0 +1,41 @@
+.mango-admin-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.empty-users {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: 'Inter', 'Roboto', sans-serif;
+  color: rgba(83, 83, 83, 0.8);
+
+  .empty-users-title {
+    font-weight: 500;
+  }
+  
+}
+
+@media (max-width: 650px) {
+  .cards-container {
+    width: 100%;
+  }
+
+  .empty-users-title {
+    width: 200px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,19 @@
+.button {
+  border: 0px;
+  padding: 15px 20px;
+  width: 90%;
+  max-width: 350px;
+  background-color: #EF476F;
+  border: 3px solid #EF476F;
+  color: #fff;
+  font-family: "Inter", "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #ff577e;
+}
+
+/*# sourceMappingURL=Button.css.map */

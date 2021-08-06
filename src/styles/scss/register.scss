@@ -1,0 +1,51 @@
+$skills-title-text-color: #BFBFBF;
+
+.register-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    .form-btn {
+      width: 100%;
+    }
+
+  }
+
+  .register-checkbox-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .line {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .skills-title {
+    font-family: 'Inter', 'Roboto', sans-serif;
+    color: $skills-title-text-color;
+    font-weight: bold;
+  }
+
+  .skills-subtitle {
+    font-family: 'Inter', 'Roboto', sans-serif;
+    color: $skills-title-text-color;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 1040px) {
+  .register-container {
+    flex-direction: column-reverse;
+    margin-bottom: 100px;
+  }
+}

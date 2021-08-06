@@ -1,0 +1,12 @@
+.logoIcon {
+  display: none;
+}
+
+@media (max-width: 1040px) {
+  .logoIcon {
+    margin-top: 100px;
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=LogoIcon.css.map */

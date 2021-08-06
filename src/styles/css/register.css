@@ -1,0 +1,44 @@
+.register-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.register-container .form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.register-container .form .form-btn {
+  width: 100%;
+}
+.register-container .register-checkbox-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.register-container .line {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.register-container .skills-title {
+  font-family: "Inter", "Roboto", sans-serif;
+  color: #BFBFBF;
+  font-weight: bold;
+}
+.register-container .skills-subtitle {
+  font-family: "Inter", "Roboto", sans-serif;
+  color: #BFBFBF;
+  font-weight: 500;
+}
+
+@media (max-width: 1040px) {
+  .register-container {
+    flex-direction: column-reverse;
+    margin-bottom: 100px;
+  }
+}
+
+/*# sourceMappingURL=register.css.map */

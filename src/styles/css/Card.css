@@ -1,0 +1,93 @@
+.card-container {
+  width: 640px;
+  height: 90px;
+  font-family: "Inter", "Roboto", sans-serif;
+  background: #fff;
+  border: 3px solid #EDEDF1;
+  color: #535353;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.card-container .card-arrow-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 20px;
+}
+.card-container .user-info {
+  color: #535353;
+  padding: 20px;
+}
+.card-container .user-info .name-and-status-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.card-container .user-info .name-and-status-container .card-title {
+  font-weight: 600;
+}
+.card-container .user-info .name-and-status-container .user-status {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  color: #fff;
+  height: 20px;
+  padding: 10px;
+  background: #26D64E;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 12px;
+}
+.card-container .user-info .name-and-status-container .invalid-user-status {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  color: #fff;
+  height: 20px;
+  padding: 10px;
+  background: #C1121F;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 12px;
+}
+.card-container .user-info .card-info {
+  display: flex;
+  gap: 20px;
+}
+.card-container .user-info .email-info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.card-container .user-info .cpf-info {
+  width: 160px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+@media (max-width: 650px) {
+  .card-container {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 455px) {
+  .name-and-status-container {
+    flex-direction: column;
+  }
+
+  .card-info {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=Card.css.map */
