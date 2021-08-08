@@ -15,6 +15,12 @@ $invalid-field-text-color: #C1121F;
   border-radius: 5px;
 }
 
+@media (max-width: 1040px) {
+  .input {
+    width: 100%;
+  }
+}
+
 .input:focus {
   border-color: $outline-color;
 }

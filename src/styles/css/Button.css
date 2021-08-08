@@ -16,4 +16,10 @@
   background-color: #ff577e;
 }
 
+@media (max-width: 1040px) {
+  .button {
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=Button.css.map */
