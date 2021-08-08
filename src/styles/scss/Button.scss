@@ -20,3 +20,9 @@ $text-color: #fff;
     background-color: $button-background-color-hover;
   }
 }
+
+@media (max-width: 1040px) {
+  .button {
+    width: 100%;
+  }
+}

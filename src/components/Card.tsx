@@ -1,4 +1,4 @@
-import React, { ButtonHTMLAttributes, MouseEvent } from 'react';
+import React from 'react';
 import { CSSProperties } from 'react';
 
 import '../styles/css/Card.css';
