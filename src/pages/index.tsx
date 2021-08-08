@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Button from '../components/Button';
 import Input from '../components/Input';
 import Logo from '../components/Logo';
@@ -8,8 +8,22 @@ import '../styles/css/index.css';
 
 const Index: React.FC = () => {
   
+  const [username, setUsername] = useState<string>("");
+  
   function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
-    return window.location.href = `/${e.target.value}/registro`;
+    setUsername(e.target.value);
+  }
+  
+  function goToRegister() {
+
+    if (!username.trim()) {
+      return alert('Preencha um nome.');
+    }
+
+    const name = username.toLowerCase();
+    const nameWithoutSpaces = name.replace(/\s/g, "_");
+    
+    return window.location.href = `/${nameWithoutSpaces}/registrar`;
   }
   
   return (
@@ -24,7 +38,10 @@ const Index: React.FC = () => {
           onChange={handleChange}
         />
         <div className="index-button-container">
-          <Button value="Enviar" />
+          <Button
+            onClick={goToRegister}
+            value="Enviar"
+          />
         </div>
       </section>
     </>
