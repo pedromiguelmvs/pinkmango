@@ -19,7 +19,7 @@ const Header: React.FC<HeaderProps> = (props) => {
     } else {
       setReturnButton(false);
     }
-  })
+  }, [props.showReturnButton])
 
   function GoToRegisters() {
     return window.location.href = '/registros';
